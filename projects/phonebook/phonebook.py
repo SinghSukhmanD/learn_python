@@ -54,15 +54,15 @@ def delete_contact(phonebook):
 
 # the main program
 phonebook = []
-phoneBookItem1 = {'NAME': 'Jeff', 'LASTNAME': 'Bizos', 'MOBILE': '0912837645'}
+phoneBookItem1 = {'NAME': 'name1', 'LASTNAME': 'lname1', 'MOBILE': '0912837645'}
 phonebook.append(phoneBookItem1)
-phoneBookItem2 = {'NAME': 'Jones', 'LASTNAME': 'Farmerson', 'MOBILE': '7182794781'}
+phoneBookItem2 = {'NAME': 'name2', 'LASTNAME': 'lname2', 'MOBILE': '7182794781'}
 phonebook.append(phoneBookItem2)
-phoneBookItem3 = {'NAME': 'Hermione','LASTNAME': 'Grandma', 'MOBILE': '2123866037'}
+phoneBookItem3 = {'NAME': 'name3', 'LASTNAME': 'lname3', 'MOBILE': '2123866037'}
 phonebook.append(phoneBookItem3)
-phoneBookItem4 = {'NAME': 'Arthur', 'LASTNAME': 'Pendrigon', 'MOBILE': '1354276808'}
+phoneBookItem4 = {'NAME': 'name4', 'LASTNAME': 'lname4', 'MOBILE': '1354276808'}
 phonebook.append(phoneBookItem4)
-phoneBookItem5 = {'NAME': 'Anne', 'LASTNAME': 'Fronk', 'MOBILE': '0293817465'}
+phoneBookItem5 = {'NAME': 'name5', 'LASTNAME': 'lname5', 'MOBILE': '0293817465'}
 phonebook.append(phoneBookItem5)
 
 ask_what(phonebook)
